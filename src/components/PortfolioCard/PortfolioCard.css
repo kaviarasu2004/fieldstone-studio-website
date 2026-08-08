@@ -1,0 +1,25 @@
+.portfolio-card {
+  padding: var(--space-4);
+  border: 1px solid var(--border);
+  background: var(--bg-raised);
+  transition: transform 0.25s var(--ease), border-color 0.25s var(--ease);
+}
+
+.portfolio-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+}
+
+.portfolio-card-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--space-2);
+}
+
+.portfolio-card h4 {
+  margin-bottom: var(--space-1);
+}
+
+.portfolio-card p:last-child {
+  margin-bottom: 0;
+}

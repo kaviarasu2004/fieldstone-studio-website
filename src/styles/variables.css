@@ -1,0 +1,61 @@
+:root {
+  /* Color — paper & print studio palette */
+  --paper: #f7f4ec;
+  --paper-raised: #fffdf8;
+  --ink: #201f1c;
+  --ink-soft: #55524a;
+  --forest: #2b4536;
+  --forest-strong: #1c2f24;
+  --ochre: #b9852f;
+  --line: #d8d2c4;
+  --line-strong: #b7ae99;
+  --danger: #a3402f;
+
+  --bg: var(--paper);
+  --bg-raised: var(--paper-raised);
+  --text: var(--ink);
+  --text-soft: var(--ink-soft);
+  --accent: var(--forest);
+  --accent-strong: var(--forest-strong);
+  --highlight: var(--ochre);
+  --border: var(--line);
+  --border-strong: var(--line-strong);
+
+  /* Type */
+  --font-display: "Fraunces", "Iowan Old Style", serif;
+  --font-body: "Inter", "Helvetica Neue", sans-serif;
+  --font-mono: "IBM Plex Mono", "SF Mono", monospace;
+
+  --step-1: clamp(0.8rem, 0.77rem + 0.15vw, 0.875rem);
+  --step0: clamp(1rem, 0.96rem + 0.2vw, 1.05rem);
+  --step1: clamp(1.25rem, 1.15rem + 0.5vw, 1.5rem);
+  --step2: clamp(1.75rem, 1.5rem + 1.2vw, 2.25rem);
+  --step3: clamp(2.5rem, 2rem + 2.5vw, 3.75rem);
+  --step4: clamp(3rem, 2.2rem + 4vw, 5rem);
+
+  /* Spacing (8px baseline) */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 4.5rem;
+  --space-7: 7rem;
+
+  --radius: 2px;
+  --max-width: 1180px;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+[data-theme="dark"] {
+  --bg: #16181a;
+  --bg-raised: #1e2124;
+  --text: #ede9dd;
+  --text-soft: #a7a297;
+  --accent: #6fa085;
+  --accent-strong: #8fbba1;
+  --highlight: #d9ae55;
+  --border: #34383a;
+  --border-strong: #46494b;
+}
